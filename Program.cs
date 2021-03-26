@@ -40,6 +40,9 @@ namespace GrapeCity.Documents.Excel.Examples.Features.Formulas.CrossWorkbookForm
             // EXCELファイル（.xlsx）に保存
             workbook.Save("crossworkbookformula2.xlsx");
 
+            // PDFファイル（.pdf）に保存
+            workbook.Save("crossworkbookformula2.pdf");
+
         }
     }
 }
